@@ -1,49 +1,35 @@
-# vite-vue-box
+# test-setup
 
-Out of the box, you can quickly generate the vue3 business framework.
+This template should help get you started developing with Vue 3 in Vite.
 
-[Preview](https://vite-vue-box.vercel.app)
+## Recommended IDE Setup
 
-<p align='left'>
-<b>English</b> | <a href="https://github.com/NelsonYong/vite-vue-box/blob/master/README.zh-CN.md">简体中文</a>
-</p>
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## 🌟 Feature
+## Customize configuration
 
-- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite 3](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
-- 📦 [Components auto importing](./src/components)
-- 🍍 [State Management via Pinia](https://pinia.vuejs.org/)
-- 🎨 [TailwindCSS](https://tailwindcss.com/) - rapidly build modern websites without ever leaving your HTML
-- 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
-- 🚀 [Vue-hooks-plus](https://github.com//InhiblabCore/vue-hooks-plus) - the vue-hooks-plus can satisfy most of your business
-- 💫 <u>Axios</u> - package the complete business request process with the vue-hooks-plus/useRequest
-- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use Composition API and others directly
-- 🦾 <u>TypeScript</u>, necessary
-- ☁️ <u>Eslint 、Stylelint 、Commitlint、Husky</u>，normative constraints
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Try it now
+## Project Setup
 
-### GitHub Template
-
-[Create a repo from this template on GitHub](https://github.com/NelsonYong/vite-vue-box/generate).
-
-### Clone to local
-
-```bash
-npx degit NelsonYong/vite-vue-box vite-vue-box-template
-cd  vite-vue-box-template
-pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
-# If you have a repo on Github
-pnpm huskyInstall
+```sh
+npm install
 ```
 
-## Checklist
+### Compile and Hot-Reload for Development
 
-When you use this template, try follow the checklist to update your info properly
+```sh
+npm run dev
+```
 
-- [ ] Change the author name in `LICENSE`
-- [ ] Change the title in `App.vue`
-- [ ] Change the hostname in `vite.config.ts` and `config`
-- [ ] Change the favicon in `public`
-- [ ] Remove the `.github` folder which contains the funding info
-- [ ] Clean up the READMEs and remove routes
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+npm run lint
+```
