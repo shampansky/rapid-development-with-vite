@@ -1,6 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import styles from './assets/example.module.css'
+console.log(styles)
 </script>
 
 <template>
@@ -8,7 +10,7 @@ import HelloWorld from './components/HelloWorld.vue'
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <h3><span>test</span></h3>
-
+    <h5 :class="styles.example">css module styles</h5>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
