@@ -7,6 +7,8 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
+    <h3><span>test</span></h3>
+
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
@@ -21,6 +23,12 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+h3 {
+  span {
+    color: red;
+  }
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;

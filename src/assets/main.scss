@@ -1,5 +1,11 @@
 @import './base.css';
 
+$primaryColor: red;
+
+h1 {
+  color: $primaryColor;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
