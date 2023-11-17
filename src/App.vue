@@ -2,12 +2,15 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import styles from './assets/example.module.css'
-console.log(styles)
+// import logo from './assets/logo.svg'
+const logo = new URL('./assets/logo.svg', import.meta.url).href
 </script>
 
 <template>
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <img :src="logo" alt="test" />
+    <img src="/logo-public.svg" alt="logo from public directory" />
 
     <h3><span>test</span></h3>
     <h5 :class="styles.example">css module styles</h5>
