@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import styles from './assets/example.module.css'
@@ -7,6 +7,9 @@ const logo = new URL('./assets/logo.svg', import.meta.url).href
 
 import data from './data.json'
 console.log(data)
+
+const testString: string = 'typescript support'
+console.log(testString)
 </script>
 
 <template>
