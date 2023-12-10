@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import styles from './assets/example.module.css'
+import HelloWorld from '@/components/HelloWorld.vue'
+import styles from '@/assets/example.module.css'
 // import logo from './assets/logo.svg'
-const logo = new URL('./assets/logo.svg', import.meta.url).href
+const logo = new URL('@/assets/logo.svg', import.meta.url).href
 
 import data from './data.json'
 console.log(data)
