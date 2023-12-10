@@ -10,6 +10,8 @@ console.log(data)
 
 const testString: string = 'typescript support'
 console.log(testString)
+
+console.log(import.meta.env)
 </script>
 
 <template>
